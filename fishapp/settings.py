@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-l8gjh^_=o!1=5g-fu6jutztlp+5w1%jeev*k!*e3t%8t2kzl8%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["nurhesen-fish-app.herokuapp.com"]
 
 
 # Application definition
