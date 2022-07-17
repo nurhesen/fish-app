@@ -1,4 +1,7 @@
-# fish-app
+# Fish App
+
+# Backend
+
 Create virtualenvironment at main folder
 
 ```
@@ -15,6 +18,8 @@ Run Backend on http://127.0.0.1:8000
 python manage.py runserver
 
 ```
+
+# Frontend
 
 Go to frontend folder
 
