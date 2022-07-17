@@ -10,7 +10,6 @@ import { Box, Container } from "@mui/system";
 import { useEffect, useState } from "react";
 import AddForm from "./AddForm";
 import AddCsv from "./AddCsv";
-import env from "react-dotenv";
 
 function Home() {
   useEffect(() => {
