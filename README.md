@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 ```
 
-Run project
+Run Backend on http://127.0.0.1:8000
 
 ```
 
@@ -32,7 +32,7 @@ yarn install
 
 ```
 
-start project
+Run frontend on http://localhost:3000
 
 ```
 
