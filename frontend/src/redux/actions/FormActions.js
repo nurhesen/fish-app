@@ -1,5 +1,5 @@
 import { createStats, statsOthers } from "./functions";
-import env from "react-dotenv";
+
 const axios = require("axios").default;
 
 export const fishFormChange = (args) => async (dispatch) => {
@@ -15,7 +15,7 @@ export const fishFormSend = (dispatch, getState) => {
     type: "FORM_REQUEST",
   });
   axios
-    .post(env.BASE_URL, fishForm)
+    .post(process.env.REACT_APP_BASE_URL, fishForm)
     .then(function (response) {
       response.data.fish_weight = Math.round(response.data.fish_weight);
       dispatch({
@@ -46,7 +46,7 @@ export const fishCsvSend = (dispatch, getState) => {
   });
   axios
     .post(
-      env.BASE_URL + "get-csv/",
+      process.env.REACT_APP_BASE_URL + "get-csv/",
       { fish_list: csv },
       {
         headers: {

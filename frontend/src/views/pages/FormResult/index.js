@@ -22,7 +22,7 @@ function FormResult() {
           position: "fixed",
         }}
         alt="Fish Background"
-        src="fishbg.jpg"
+        src="static/images/fishbg.jpg"
       />
       <Box
         sx={{

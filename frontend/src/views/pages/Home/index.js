@@ -14,7 +14,7 @@ import env from "react-dotenv";
 
 function Home() {
   useEffect(() => {
-    console.log(env);
+    console.log(process.env);
   }, []);
   const [fadeOut, setFadeOut] = useState(false);
   const [isCsv, setIsCsv] = useState(false);
@@ -42,7 +42,7 @@ function Home() {
           position: "fixed",
         }}
         alt="Fish Background"
-        src="fishbg.jpg"
+        src="static/images/fishbg.jpg"
       />
       <Box
         sx={{
