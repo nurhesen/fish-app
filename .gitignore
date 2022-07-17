@@ -41,7 +41,7 @@ node_modules/
 # Distribution / packaging
 .Python
 env/
-build/
+
 develop-eggs/
 dist/
 downloads/
