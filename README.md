@@ -47,4 +47,4 @@ Run frontend on http://localhost:3000
 yarn start
 
 ```
-
+Now you can go to http://localhost:3000 and view the project
