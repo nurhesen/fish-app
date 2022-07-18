@@ -1,8 +1,17 @@
 # Fish App
 
+# Clone the project
+
+```
+
+git clone https://github.com/nurhesen/fish-app.git
+cd fish-app
+
+```
+
 # Backend
 
-Create virtualenvironment at main folder
+Create virtualenvironment at core folder
 
 ```
 
