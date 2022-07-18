@@ -79,7 +79,7 @@ def get_fish_image(species):
     url2=f"https://www.google.com/search?q={species}+fish&sxsrf=ALiCzsaVkhssymjstUbtNe3mPZQJAb7WfQ:1657981781046&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiVtum4z_34AhWpVvEDHSt8A6UQ_AUoAXoECAIQAw&cshid=1657981835529844&biw=1396&bih=656&dpr=1.38"
     result=get_image_from_url(url1)
     if "captcha" in result:
-        get_image_from_url(url2)
+        return get_image_from_url(url2)
     return result
 
 
