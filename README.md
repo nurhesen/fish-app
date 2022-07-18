@@ -18,6 +18,9 @@ Run Backend on http://127.0.0.1:8000
 python manage.py runserver
 
 ```
+Now you can see the project at http://127.0.0.1:8000
+
+If you want to run frontend separately then
 
 # Frontend
 
