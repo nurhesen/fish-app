@@ -1,5 +1,8 @@
 # Fish App
 
+# Youtube walkthrough
+https://www.youtube.com/watch?v=pKb2aJ0i3tM
+
 # Clone the project
 
 ```
